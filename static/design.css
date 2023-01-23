@@ -293,6 +293,7 @@ th {
     .table td,
     .table th {
         background-color: #fff!important
+
     }
     .table-bordered td,
     .table-bordered th {
@@ -4469,7 +4470,8 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
+    /* color: #fff; */
+    color: black;
     background-color: transparent
 }
 
@@ -4491,6 +4493,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #fff
+    /* color: black */
 }
 
 .navbar-inverse .navbar-collapse,
@@ -4502,7 +4505,8 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>.open>a:focus,
 .navbar-inverse .navbar-nav>.open>a:hover {
     background-color: transparent;
-    color: #fff
+    color: #fff;
+    /* color: black  */
 }
 
 @media (max-width:767px) {
@@ -4521,6 +4525,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
         color: #fff;
+        /* color: black; */
         background-color: transparent
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a,
@@ -4533,19 +4538,23 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse .navbar-link {
     color: #9d9d9d
+    /* color: black */
 }
 
 .navbar-inverse .navbar-link:hover {
     color: #fff
+    
 }
 
 .navbar-inverse .btn-link {
     color: #9d9d9d
+    /* color: black */
 }
 
 .navbar-inverse .btn-link:focus,
 .navbar-inverse .btn-link:hover {
     color: #fff
+    /* color: black */
 }
 
 .navbar-inverse .btn-link[disabled]:focus,
@@ -4844,7 +4853,7 @@ button.close {
     border: 0;
     -webkit-appearance: none
 }
-
+/* 
 .carousel,
 .carousel-inner {
     position: relative
@@ -5099,7 +5108,7 @@ button.close {
     .carousel-indicators {
         bottom: 20px
     }
-}
+} */
 
 .clearfix:after,
 .clearfix:before {
@@ -5505,11 +5514,20 @@ body.minimal {
         padding-top: 30px
     }
 }
+.textabout{
+    text-align: justify;
+    /* color: blue; */
+    text-justify: auto;
 
+}
 .background-image-container {
     background-size: cover;
+    /* justify-content: center; */
+    margin: auto;
     background-repeat: no-repeat;
-    background-position: top
+    background-position: top;
+    height: 350px;
+    width: 100%;
 }
 
 .btn {
@@ -5571,7 +5589,7 @@ p {
     margin: 0 0 15px
 }
 
-.h2,
+/* .h2,
 h2 {
     position: relative;
     display: inline-block
@@ -5596,7 +5614,7 @@ h2:before {
 .h2:after,
 h2:after {
     right: 0
-}
+} */
 
 @media (min-width:992px) {
     .h2,
@@ -5646,11 +5664,11 @@ blockquote small {
 
 .fa-icon {
     color: #000;
-    width: 32px;
-    height: 32px;
+    width: 52px;
+    height: 52px;
     display: inline-block;
     line-height: 32px;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center
 }
 
@@ -5677,14 +5695,14 @@ textarea {
         margin-top: 20px
     }
 }
-
+/* 
 .card-container {
     background-color: #fff;
     padding: 2rem 5rem;
     position: relative;
     width: 80%;
     margin: -10em auto 20px
-}
+} */
 
 @media (max-width:992px) {
     .card-container {
@@ -5731,7 +5749,7 @@ textarea {
         display: block
     }
 }
-
+/* 
 .carousel-control {
     top: 50%;
     bottom: auto;
@@ -5764,7 +5782,7 @@ textarea {
 
 .carousel-control.left {
     left: -25px
-}
+} */
 
 @media (max-width:992px) {
     .carousel-control.right {
@@ -5772,6 +5790,14 @@ textarea {
     }
     .carousel-control.left {
         left: -12px
+    }
+    .background-image-container{
+        /* display: none; */
+        /* visibility: hidden; */
+        height: 250px;
+        width: 50%;
+
+        
     }
 }
 
@@ -5785,6 +5811,7 @@ textarea {
         margin: 10px
     }
 }
+
 
 .navbar-default .navbar-collapse,
 .navbar-inverse .navbar-collapse {
@@ -5807,6 +5834,7 @@ textarea {
     .navbar-inverse .navbar-collapse .navbar-nav {
         padding: 0
     }
+
 }
 
 .navbar-default .navbar-toggle,
