@@ -5946,14 +5946,14 @@ textarea {
     display: none
 }
 
-.template-example .table>tbody>tr>td,
+/* .template-example .table>tbody>tr>td,
 .template-example .table>tbody>tr>th,
 .template-example .table>tfoot>tr>td,
 .template-example .table>tfoot>tr>th,
 .template-example .table>thead>tr>td,
 .template-example .table>thead>tr>th {
     padding: 0 15px
-}
+} */
 
 .list-icons {
     list-style: none;
@@ -5969,3 +5969,8 @@ textarea {
 
 
 /*# sourceMappingURL=main.70a66962.map*/
+
+
+
+
+
