@@ -41,8 +41,6 @@ def index():
 #         db_writer = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
 #         db_writer.writerow([email,subject,message])
 
-
-
 if __name__ == '__main__':
     #   app.run(host='0.0.0.0', port=800, debug=True)
       app.run(debug = True)
